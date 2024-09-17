@@ -1,52 +1,35 @@
 👋 Hi, I’m @SuyashSolanke,
 
-This repository contains the design files for a 230V AC to 5V DC, 1A power supply created in EasyEDA. 
-The power supply is intended to convert high-voltage mains power (230V AC) to a safe, low-voltage output (5V DC) suitable 
-for powering microcontrollers, sensors, and other low-power electronic components.
+# 230V AC to 5V DC 1A Power Supply PCB
 
-Features:
-Input Voltage: 230V AC (mains power)
-Output Voltage: 5V DC
-Max Output Current: 1A
-Small Form Factor: Compact PCB design for easy integration into various projects
-Safety Features: Includes protection circuits such as capacitors to ensure safe operation
+This project is a power supply PCB design that converts 230V AC to 5V DC with a 1A output. It was created using EasyEDA.
 
-Schematic and PCB Design:
-The design was created using EasyEDA. The schematic captures the entire circuit, including the AC-DC conversion components, voltage regulation, filtering, and protection elements.
+## Features:
+- Input: 230V AC
+- Output: 5V DC, 1A
+- Includes safety features such as overvoltage and overcurrent protection
+- Compact PCB design for low-power applications like embedded systems and chargers
 
-Key Components
-Bridge Rectifier: Converts AC input to DC.
-Capacitors: For smoothing the DC voltage.
-Linear Regulator(7805): Steps down the voltage from high DC to 5V.
+## Files Included:
+- `Schematic_230VAC_5VDC_PowerSupply.pdf`: PDF of the circuit schematic
+- `PCB_230VAC_5VDC_PowerSupply.pdf`: PDF of the PCB layout
+- `Gerber files.zip`: Gerber files for PCB manufacturing
+- `BOM_230VAC_5VDC_PowerSupply.csv`: Bill of Materials, listing all components used
+- `Images/`: Contains images of the PCB layout and 3D view
 
-PCB Layout
-The PCB design has been optimized for minimal size while maintaining proper clearance for high-voltage tracks.
-Key components like the transformer, bridge rectifier, and filter capacitors are placed to ensure efficient power delivery.
-Tracks handling 230V AC have been spaced according to safety standards to prevent arcing.
+## Preview:
+### PCB Layout
+![PCB Layout](./Images/PCB_Layout.jpg")
 
-How to Use This Project
+### 3D View
+![3D View](./Images/3D_Top_view.jpg")
+![3D View](./Images/3D_bottom_view.jpg")
 
-Download the Files:
-1) Clone the repository or download the files using the green "Code" button.
-2) All key project files are located in the repository including:
-    1. Schematic.json (EasyEDA Schematic)
-    2. PCB.json (EasyEDA PCB Layout)
-    3. Gerber.zip (Manufacturing files for PCB)
-    4.  BOM.csv (Bill of Materials)
-    5. Images of the design
+## How to Use:
+1. Download the Gerber files (`Gerber files.zip`) to manufacture the PCB.
+2. Use the Bill of Materials (`BOM_230VAC_5VDC_PowerSupply.csv`) to order components.
+3. Open the PDFs (`Schematic_230VAC_5VDC_PowerSupply.pdf`, `PCB_230VAC_5VDC_PowerSupply.pdf`) to view the design.
 
-3) Open in EasyEDA:
-    1. Open EasyEDA in your browser.
-    2. Import the schematic and PCB .json files to view, modify, or simulate the design.
-
-4) Fabricate the PCB:
-Use the provided Gerber files (Gerber.zip) to manufacture the PCB through a PCB fabrication service like JLCPCB or any PCB manufacturer.
-Ensure you select the appropriate PCB specifications during the order, such as material, layer count, and copper thickness.
-
-5) Component Assembly:
-Refer to the BOM.csv file for a detailed list of components required to build the power supply.
-The BOM includes part numbers, values, and package types for easy sourcing.
-
-6) Test and Validate:
-Once assembled, carefully test the output voltage using a multimeter to ensure it provides a stable 5V DC output.
-Check for any potential short circuits or misbehavior during the initial power-on test.
+## Applications:
+- Low-power USB chargers
+- Embedded systems requiring a stable 5V supply
