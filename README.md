@@ -19,7 +19,7 @@ This project is a power supply PCB design that converts 230V AC to 5V DC with a 
 
 ## Preview:
 ### PCB Layout
-![PCB Layout](./Images/PCB_Layout.jpg")
+![PCB Layout](.Images/PCB_Layout.jpg")
 
 ### 3D View
 ![3D View](./Images/3D_Top_view.jpg")
