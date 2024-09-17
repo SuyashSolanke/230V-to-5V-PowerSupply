@@ -50,8 +50,3 @@ The BOM includes part numbers, values, and package types for easy sourcing.
 6) Test and Validate:
 Once assembled, carefully test the output voltage using a multimeter to ensure it provides a stable 5V DC output.
 Check for any potential short circuits or misbehavior during the initial power-on test.
-
-<!---
-SuyashSolanke/SuyashSolanke is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
